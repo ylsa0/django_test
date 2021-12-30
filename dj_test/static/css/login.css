@@ -1,0 +1,42 @@
+
+
+#welcome{
+position: absolute;
+top: 15%;
+width: 100%;
+text-align: center;
+color: #FFF
+}
+
+#login{
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+width: 15%;
+height: 20%;
+transform: translate(-50%, -50%);
+text-align: center;
+border: 2px solid #ccc;
+border-radius: 16px;
+color: #e3bebe;
+}
+
+input.text{
+height: 30%;
+width: 70%;
+position: relative;
+text-align: center;
+border-radius: 10px;
+}
+
+input.button{
+width: 30%;
+position: relative;
+border-radius: 10px;
+}
+
+form>input:nth-child(10){
+background-color: #4f4fe9;
+color: white;
+}

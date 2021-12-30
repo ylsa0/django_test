@@ -1,0 +1,65 @@
+
+
+#welcome{
+position: absolute;
+top: 15%;
+width: 100%;
+text-align: center;
+color: #FFF
+}
+
+.action{
+position: absolute;
+top: 40%;
+width: 100%;
+text-align: center;
+color: white;
+}
+
+a{
+color: white;
+}
+
+audio{
+position: relative;
+left: 20%;
+width: 100px;
+}
+
+ul {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #343b7c00;
+  left: 40%;
+  width: 20%;
+  top: 40%;
+}
+
+li {
+  float: left;
+}
+
+li:first-child {
+background-color: #2205225e;
+border-right: none;
+border-left: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
